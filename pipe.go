@@ -1,6 +1,6 @@
 package pmgo
 
-import mgo "gopkg.in/mgo.v2"
+import "github.com/bukalapak/mgo"
 
 type PipeManager interface {
 	All(result interface{}) error

@@ -4,9 +4,9 @@
 package pmgomock
 
 import (
+	"github.com/bukalapak/mgo"
+	. "github.com/bukalapak/pmgo"
 	gomock "github.com/golang/mock/gomock"
-	. "github.com/percona/pmgo"
-	mgo_v2 "gopkg.in/mgo.v2"
 )
 
 // Mock of CollectionManager interface
@@ -41,7 +41,7 @@ func (_mr *_MockCollectionManagerRecorder) Count() *gomock.Call {
 	return _mr.mock.ctrl.RecordCall(_mr.mock, "Count")
 }
 
-func (_m *MockCollectionManager) Create(_param0 *mgo_v2.CollectionInfo) error {
+func (_m *MockCollectionManager) Create(_param0 *mgo.CollectionInfo) error {
 	ret := _m.ctrl.Call(_m, "Create", _param0)
 	ret0, _ := ret[0].(error)
 	return ret0

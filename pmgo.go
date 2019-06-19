@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	mgo "gopkg.in/mgo.v2"
+	"github.com/bukalapak/mgo"
 )
 
 type Dialer interface {

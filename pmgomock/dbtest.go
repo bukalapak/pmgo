@@ -4,8 +4,8 @@
 package pmgomock
 
 import (
+	. "github.com/bukalapak/pmgo"
 	gomock "github.com/golang/mock/gomock"
-	. "github.com/percona/pmgo"
 )
 
 // Mock of DBTestServer interface

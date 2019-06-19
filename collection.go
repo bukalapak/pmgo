@@ -1,6 +1,6 @@
 package pmgo
 
-import mgo "gopkg.in/mgo.v2"
+import "github.com/bukalapak/mgo"
 
 // CollectionManager is an interface for mgo.Collection struct.
 // All implemented methods returns interfaces when needed

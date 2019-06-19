@@ -4,9 +4,10 @@
 package pmgomock
 
 import (
-	gomock "github.com/golang/mock/gomock"
-	. "github.com/percona/pmgo"
 	time "time"
+
+	. "github.com/bukalapak/pmgo"
+	gomock "github.com/golang/mock/gomock"
 )
 
 // Mock of Dialer interface

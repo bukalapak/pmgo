@@ -3,7 +3,7 @@ package pmgo
 import (
 	"time"
 
-	mgo "gopkg.in/mgo.v2"
+	"github.com/bukalapak/mgo"
 )
 
 type QueryManager interface {
